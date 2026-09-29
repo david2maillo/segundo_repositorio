@@ -1,0 +1,54 @@
+How to install Tfgen
+
+
+1) Deside location (subdirectory) and make the directory.
+
+   Ex. By using NT console,
+           mkdir c:\Tfgen
+
+2) Unpack "tfgen.lzh" by using "LHA" archiver under the directory you
+   specified.
+
+   Ex. By using NT console,
+           c:
+           cd \Tfgen
+           lha x Tfgen.lzh
+
+   You can see following files.
+     Tfgen.exe    -----   Traffic generator executable file.
+     Tfgen.hlp    -----   Tfgen help file
+     Install.txt  -----   This file.
+     ChangeLog    -----   Change log.
+
+3) Register "Tfgen" icon to a program group(NT 3.5x) or start-up menu
+   (NT 4.x). If necessary, you can create Tfgen program group by using 
+   program manager(NT 3.5x).  Also you can create "short cut" icon to
+   desktop on NT 4.x 
+
+4) Make PATH environment variable includes the Tfgen path you
+specified.
+
+   Hint: use system applet in control panel.
+
+
+
+How to uninstall Tfgen
+
+1) Remove the directory includes Tfgen.exe and Tfgen.hlp.
+      Ex. By using NT console,
+
+            rmdir /s c:\Tfgen
+
+2) Remove the program icon or short cut for tfgen.
+
+3) Remove Tfgen path fron PATH environment variable.
+
+
+Regards, Yumo//
+Katsuyuki Yumoto                              )))
+Email: yumoto@pisces.bekkoame.or.jp          (((
+       yumoto@st.rim.or.jp                  ~~~~~
+
+
+
+           
